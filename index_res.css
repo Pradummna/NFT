@@ -16,9 +16,9 @@
         width: 94%;
     }
 
-    .intro p {
+/*     .intro p {
         font-size: 1.05rem;
-    }
+    } */
 
     .intro_img img {
         height: auto;
@@ -54,15 +54,19 @@
         margin: 0px auto;
     }
 
-    .intro p {
+/*     .intro p {
         font-size: 1rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 540px) {
 
     .intro_img {
         width: 60%;
+    }
+    
+    .intro p {
+        font-size: 0.85rem;
     }
 }
 
