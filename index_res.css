@@ -49,8 +49,9 @@
     }
 
     .intro {
-        width: 96%;
+        width: 92%;
         padding: 10px;
+        margin: 0px auto;
     }
 
     .intro p {
