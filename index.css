@@ -3,16 +3,6 @@ body {
     color: white;
 }
 
-/* top button */
-/* .top-btn {
-    position: relative;
-    height: 60px;
-    width: 60px;
-    top: 450px;
-    border-radius: 50%;
-    background-color: red;
-} */
-
 /* hero section */
 .main_block {
     display: flex;
@@ -99,7 +89,7 @@ body {
 .second_para p {
     font-size: 0.85rem;
     padding: 5px;
-    font-family: 'Phudu', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .hr {
@@ -186,7 +176,7 @@ body {
     padding: 5px;
     font-size: 0.85rem;
     text-align: justify;
-    font-family: 'Phudu', cursive;
+    font-family: 'Varela Round', sans-serif;
 }
 
 /* links */
