@@ -19,7 +19,7 @@ body {
 .main_block {
     display: flex;
     justify-content: center;
-    background-image: url('...nft_bg1.jpg');
+    background-image: url('..nft_bg1.jpg');
     height: 450px;
     background-position: center;
     background-size: cover;
