@@ -1,0 +1,257 @@
+body {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Raleway&family=Varela+Round&display=swap');
+
+/* top button */
+/* .top-btn {
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 450px;
+    border-radius: 50%;
+    background-color: red;
+} */
+
+/* hero section */
+.main_block {
+    display: flex;
+    justify-content: center;
+    background-image: url('nft.img/nft_bg1.jpg');
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+}
+
+.main_head {
+    margin: auto;
+}
+
+.main_head p {
+    font-size: 2.8rem;
+    font-family: 'Phudu', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 1.4px;
+    -webkit-text-stroke-color: black;
+}
+
+/* intro section */
+.hero_div {
+    display: flex;
+    justify-content: center;
+}
+
+.center_block {
+    width: 86%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.intro {
+    width: 65%;
+    padding: 15px 20px;
+}
+
+.intro p {
+    padding: 5px;
+    font-size: 0.94rem;
+    text-align: justify;
+    font-family: 'Phudu', cursive;
+}
+
+.intro_img {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro_img img {
+    margin: auto;
+    height: 270px;
+    width: 85%;
+}
+
+/* about section */
+.head {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.head p:hover {
+    text-decoration: underline;
+}
+
+.head p {
+    font-size: 2.2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.first_para,
+.second_para {
+    padding: 20px;
+}
+
+.first_para p,
+.second_para p {
+    font-size: 0.85rem;
+    padding: 5px;
+    font-family: 'Phudu', cursive;
+}
+
+.hr {
+    padding: 20px 0px;
+}
+
+/* nft's section */
+.nft_market {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nft_block {
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.nft {
+    width: 20%;
+    border: 1px solid rgb(252, 248, 248);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nft img {
+    width: 100%;
+    height: 170px;
+    border-radius: 5px;
+}
+
+.nft-cart {
+    display: flex;
+}
+
+.nft_btn {
+    margin-top: 5px;
+    border: none;
+    background-color: rgb(17, 172, 17);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: rgb(255, 251, 251);
+}
+
+.price {
+    padding: 4px 5px;
+}
+
+.price p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.see-more {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    padding: 20px 0px;
+}
+
+.see-more button {
+    background: rgb(84, 184, 101);
+    border-radius: 5px;
+    padding: 5px 8px;
+    border: none;
+}
+
+.see-more a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(245, 240, 235);
+}
+
+/* vision */
+.vision-txt {
+    padding: 18px;
+}
+
+.vision-txt p {
+    padding: 5px;
+    font-size: 0.85rem;
+    text-align: justify;
+    font-family: 'Phudu', cursive;
+}
+
+/* links */
+.link_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.page_link {
+    padding: 10px 0px;
+}
+
+.page_link a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+}
+
+.page_link a:hover {
+    text-decoration: underline;
+}
+
+.media_links {
+    padding: 38px 0px;
+}
+
+.fa {
+    background: #383636af;
+    color: white;
+    border: 0.5px solid rgb(194, 191, 191);
+    padding: 10px;
+    font-size: 16px;
+    width: 18px;
+    margin: 5px 2px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    animation: rotate 0.5s linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 6px 0px;
+}
+
+footer p {
+    font-size: 1.2rem;
+}
