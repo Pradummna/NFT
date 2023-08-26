@@ -1,0 +1,148 @@
+/* navbar back button */
+.back-nav {
+    background-color: rgb(37, 37, 37);
+}
+
+.back-nav button {
+    margin: 5px 0px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: rgb(96, 169, 214);
+    border-radius: 5px;
+}
+
+.back-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* nft section */
+.nft_market {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nft_block {
+    width: 82%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.nft {
+    width: 20%;
+    border: 1px solid rgb(17, 12, 12);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.nft img {
+    width: 100%;
+    height: 170px;
+    border-radius: 4px;
+}
+
+.nft-cart {
+    display: flex;
+    justify-content: center;
+}
+
+.nft_btn {
+    margin-top: 5px;
+    border: none;
+    background-color: rgb(17, 172, 17);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: antiquewhite;
+}
+
+.price {
+    padding: 4px 5px;
+}
+
+.price p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 8px 0px;
+    background-color: black;
+}
+
+footer p {
+    color: antiquewhite;
+    font-size: 1.3rem;
+}
+
+/* responsive code */
+
+@media screen and (max-width: 1050px) {
+    .nft_block {
+        gap: 8px;
+    }
+    .nft {
+        width: 22%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .nft {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .nft_block {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nft {
+        width: 26%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nft_block {
+        width: 84%;
+    }
+    .nft {
+     width: 36%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nft_block {
+        flex-direction: column;
+    }
+
+    .nft {
+        margin: 0px auto;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nft_block {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .nft_block {
+    width: 100%;
+    }
+
+    .nft {
+        width: 50%;
+    }
+}

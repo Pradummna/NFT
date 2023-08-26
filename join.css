@@ -1,0 +1,128 @@
+/* navbar back button */
+.back-nav {
+    background-color: rgb(37, 37, 37);
+}
+
+.back-nav button {
+    margin: 5px 0px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: rgb(96, 169, 214);
+    border-radius: 5px;
+}
+
+.back-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* from section */
+
+.from-block {
+    display: flex;
+    justify-content: center;
+    margin: 14px 0px;
+}
+
+.from {
+    width: 30%;
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 8px 8px rgba(107,104,107,1);
+}
+
+form {
+    margin: auto;
+    padding: 12px 0px;
+}
+
+input {
+    margin: 8px 0px;
+    border-radius: 4px;
+}
+
+input[type=text], input[type=password] {
+    padding: 2px 4px;
+    font-size: 14px;
+}
+
+form p {
+    text-align: center;
+}
+
+.log-btn {
+    margin: 8px 0px;
+    width: 100%;
+    color: antiquewhite;
+    border-radius: 4px;
+    background-color: rgb(35, 136, 175);
+    font-size: 16px;
+    padding: 4px 6px;
+}
+
+.log-icon {
+    margin: 8px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.log-icon a {
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 16px;
+    width: 18px;
+    margin: 5px 2px;
+    padding: 10px;
+}
+
+/* icon */
+.fa-google-plus {
+    color: rgb(66, 133, 244);
+}
+
+.fa-facebook {
+    color: rgb(1, 101, 225);
+}
+
+/* responsive code */
+@media screen and (max-width: 1000px) {
+    .from {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .from {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .from {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .from {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .from {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .from {
+        width: 76%;
+    }
+}
+

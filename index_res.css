@@ -1,0 +1,141 @@
+/* responsive code */
+/* hero section */
+@media screen and (max-width: 600px) {
+    .main_block {
+        height: 400px;
+    }
+
+    .main_head p {
+        font-size: 2rem;
+    }
+}
+
+/* intro section */
+@media screen and (max-width: 920px) {
+    .center_block {
+        width: 94%;
+    }
+
+    .intro p {
+        font-size: 1.05rem;
+    }
+
+    .intro_img img {
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .center_block {
+        width: 100%;
+    }
+
+    .intro_img {
+        padding-right: 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .center_block {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .intro_img {
+        width: 44%;
+        margin: 0px auto;
+        padding-right: 0px;
+    }
+
+    .intro {
+        width: 96%;
+        padding: 10px;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .intro_img {
+        width: 60%;
+    }
+}
+
+/* about section */
+
+/* nft's section */
+
+@media screen and (max-width: 960px) {
+    .nft_block {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .nft_block {
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nft_block {
+        gap: 12px;
+    }
+
+    .nft {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .nft {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nft {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .nft {
+        width: 38%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nft {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nft_block {
+        flex-direction: column;
+    }
+
+    .nft {
+        margin: 0px auto;
+        width: 48%;
+    }
+}
+
+/* vision section */
+
+/* links */
+
+@media screen and (max-width: 520px){
+    .link_block {
+        flex-direction: column-reverse;
+    }
+    .page_link, .media_links {
+        margin: 0px auto;
+        padding: 12px 0px;
+    }
+}
