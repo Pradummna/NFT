@@ -47,7 +47,7 @@ body {
 
 .intro p {
     padding: 5px;
-    font-size: 0.94rem;
+    font-size: 1rem;
     text-align: justify;
     font-family: 'Varela Round', sans-serif;
 }
@@ -82,7 +82,7 @@ body {
 
 .first_para,
 .second_para {
-    padding: 20px;
+    padding: 30px;
 }
 
 .first_para p,
@@ -169,7 +169,7 @@ body {
 
 /* vision */
 .vision-txt {
-    padding: 18px;
+    padding: 22px;
 }
 
 .vision-txt p {
